@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.cookie-banner {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 300px;
+  height: 340px;
+  margin: 9px;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.cookie-banner__image {
+  margin: 30px 20px;
+}
+
+.cookie-banner__cookie-icon {
+  width: 65px;
+  height: auto;
+}
+
+.cookie-banner__close {
+  position: relative;
+}
+
+.cookie-banner__close-button {
+  position: absolute;
+  top: 18px;
+  left: 65px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+
+.cookie-banner__close-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.cookie-banner__text {
+  position: absolute;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  top: 150px;
+  left: 80px;
+  transform: translate(-20%, 0%);
+}
+
+.cookie-banner__accept-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 240px;
+  height: 70px;
+  bottom: 20px;
+  left: 150px;
+  transform: translateX(-50%);
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+}
